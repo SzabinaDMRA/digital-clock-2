@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik Bubbles', cursive;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(255, 251, 250);
+    background: radial-gradient(circle, rgb(198, 187, 191) 0%, rgba(8, 4, 35, 0.705) 100%);
+    color: #312d2da3;
+    position: relative;
+    display: flex;
+}
+
+.container {
+    width: 40%;
+    height: 800px;
+    margin-top: 5%;
+    margin-left: 30%;
+    background: rgb(235, 218, 226);
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+    
+}
+
+.clock {
+    width: 300px;
+    height: 600px;
+    margin-top: 4%;
+    margin-left: 32%;
+    background: transparent;
+    text-align: center;
+}
+
+span {
+    font-size: 170px;
+    font-weight: 800;
+
+ 
+}
+
+
+
+
+
